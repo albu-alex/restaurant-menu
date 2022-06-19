@@ -1,0 +1,10 @@
+.container {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    background-image: repeating-linear-gradient(grey, darkgrey);
+    min-height: 100vh;
+    gap: 1vh;
+    align-items: center;
+}

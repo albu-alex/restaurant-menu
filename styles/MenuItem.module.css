@@ -1,0 +1,30 @@
+.container {
+    height: 18vh;
+    width: 96vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background-image: linear-gradient(to right, rgba(255, 255, 0, 0.6), rgba(255, 255, 0, 0.3));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1vh;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.price {
+    background-color: rgba(7, 7, 0, 0.4);
+    border-radius: 0.5vh;
+    width: 25vw;
+    color: ghostwhite;
+    text-align: center;
+}
+
+.title {
+    background-color: rgba(7, 7, 0, 0.4);
+    border-radius: 0.5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color: ghostwhite;
+    text-align: center;
+}
