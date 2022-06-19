@@ -1,0 +1,16 @@
+.container {
+    position: fixed;
+    height: 8vh;
+    width: 100vw;
+    /*background-image: url(../assets/header_background.jpg);*/
+    /*background-size: 100vw 8vh;*/
+    background-image: linear-gradient(to right, tomato, rgba(255, 0, 0, 0.6));
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    color: ghostwhite;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}

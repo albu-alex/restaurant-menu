@@ -1,9 +1,8 @@
 .container {
-    padding-top: 3vh;
     padding-bottom: 3vh;
     display: flex;
     flex-direction: column;
-    background-image: repeating-linear-gradient(grey, darkgrey);
+    background-image: repeating-linear-gradient(rgb(255, 100, 100), rgb(255, 150, 150));
     min-height: 100vh;
     gap: 1vh;
     align-items: center;
