@@ -4,11 +4,11 @@ import MenuItem from "../components/MenuItem";
 import Header from "../components/Header"
 import {MenuItemInterface} from "../components/MenuItemInterface";
 import {useEffect, useState} from "react";
-import {ciorba, crispy} from "../globals/FoodMenu";
+import {ciorba, crispy, carnivore, mexicana, capricioasa, bellaPlus} from "../globals/FoodMenu";
 
 const Menu: NextPage = () => {
     const [headerOpacity, setHeaderOpacity] = useState(1);
-    const menuItems: MenuItemInterface[] = [ciorba, crispy]
+    const menuItems: MenuItemInterface[] = [ciorba, crispy, carnivore, mexicana, capricioasa, bellaPlus]
 
     useEffect(() => {
         window.onscroll = () => {
