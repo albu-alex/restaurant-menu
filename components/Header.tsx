@@ -15,7 +15,7 @@ const Header: React.FC = () => {
             <button className={styles.button} onClick={toggleSideMenu}>
                 <FontAwesomeIcon className={styles.icon} icon={faGripLines} />
             </button>
-            <p className={styles.title}>La Bella Vita</p>
+            <p className={styles.title}>Restaurant</p>
         </div>
     )
 }
