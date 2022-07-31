@@ -23,4 +23,3 @@ export const carnivore = createMenuItem("Pizza Carnivore", "25 Lei", carnivoreIm
 export const mexicana = createMenuItem("Pizza Mexicana", "27 Lei", mexicanaImage.src, "Pizza Mexicana")
 export const capricioasa = createMenuItem("Pizza Capricioasa", "24 Lei", capricioasaImage.src, "Pizza Capricioasa")
 export const bellaPlus = createMenuItem("Pizza Bella Plus", "24 Lei", bellaPlusImage.src, "Pizza Bella Plus")
-

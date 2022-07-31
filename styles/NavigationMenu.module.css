@@ -1,0 +1,45 @@
+.container {
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+    top: 8vh;
+    left: 0;
+    background-color: rgb(255, 20, 20);
+    overflow-x: hidden;
+    transition: 0.1s;
+}
+
+.list {
+    margin-top: 20%;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.category {
+    color: ghostwhite;
+    font-size: large;
+    font-weight: bold;
+}
+
+.button {
+    border: none;
+    background: none;
+}
+
+.button:active {
+    transform: scale(1.25);
+    transition: 0.1s;
+}
+
+.backgroundContainer {
+    transition: 0.1s;
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    height: 92vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}

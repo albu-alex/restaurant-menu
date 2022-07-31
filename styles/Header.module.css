@@ -22,3 +22,13 @@
     color: ghostwhite;
     font-size: 2rem;
 }
+
+.button {
+    background: none;
+    border: none;
+}
+
+.button:active {
+    transform: scale(1.5);
+    transition: 0.1s;
+}

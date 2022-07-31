@@ -6,4 +6,5 @@
     min-height: 100vh;
     gap: 1vh;
     align-items: center;
+    overflow-y: hidden;
 }
