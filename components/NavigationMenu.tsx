@@ -7,16 +7,25 @@ const NavigationMenu: React.FC = () => {
             <div className={styles.container}>
                 <div className={styles.list}>
                     <button className={styles.button} onClick={() => window.scroll(0, 0)}>
-                        <p className={styles.category}>Category 1</p>
+                        <p className={styles.category}>Garnituri</p>
                     </button>
-                    <button className={styles.button} onClick={() => window.scroll(0, 0.1 * window.innerHeight)}>
-                        <p className={styles.category}>Category 2</p>
+                    <button className={styles.button} onClick={() => window.scroll(0, 1.75 * window.innerHeight)}>
+                        <p className={styles.category}>Meniuri calde</p>
                     </button>
-                    <button className={styles.button} onClick={() => window.scroll(0, 0.2 * window.innerHeight)}>
-                        <p className={styles.category}>Category 3</p>
+                    <button className={styles.button} onClick={() => window.scroll(0, 3.45 * window.innerHeight)}>
+                        <p className={styles.category}>Fast food</p>
                     </button>
-                    <button className={styles.button} onClick={() => window.scroll(0, 0.3 * window.innerHeight)}>
-                        <p className={styles.category}>Category 4</p>
+                    <button className={styles.button} onClick={() => window.scroll(0, 4.4 * window.innerHeight)}>
+                        <p className={styles.category}>Paste</p>
+                    </button>
+                    <button className={styles.button} onClick={() => window.scroll(0, 5.2 * window.innerHeight)}>
+                        <p className={styles.category}>Desert</p>
+                    </button>
+                    <button className={styles.button} onClick={() => window.scroll(0, 5.75 * window.innerHeight)}>
+                        <p className={styles.category}>Salate</p>
+                    </button>
+                    <button className={styles.button} onClick={() => window.scroll(0, 7 * window.innerHeight)}>
+                        <p className={styles.category}>Sosuri</p>
                     </button>
                 </div>
             </div>

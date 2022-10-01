@@ -7,16 +7,16 @@ import Header from "../components/Header";
 import NavigationMenu from "../components/NavigationMenu";
 import {MenuItemInterface} from "../components/MenuItemInterface";
 
-import {ciorba, crispy, carnivore, mexicana, capricioasa, bellaPlus} from "../globals/FoodMenu";
+import {items} from "../globals/FoodMenu";
 
 const Menu: NextPage = () => {
     const [headerOpacity, setHeaderOpacity] = useState(1);
     const [isSideMenuShown, setIsSideMenuShown] = useState(false)
-    const menuItems: MenuItemInterface[] = [ciorba, crispy, carnivore, mexicana, capricioasa, bellaPlus]
+    const menuItems: MenuItemInterface[] = items
 
     useEffect(() => {
         window.onscroll = () => {
-            setHeaderOpacity(Math.min(100 / window.scrollY > 0.25 ? 100 / window.scrollY : 0, 1));
+            setHeaderOpacity(Math.min(100 / window.scrollY > 0.35 ? 100 / window.scrollY : 0.3, 1));
         }
         setInterval(() => {
             const isSideMenuShown = localStorage.getItem("isSideMenuShown");

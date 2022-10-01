@@ -2,7 +2,7 @@
     padding-bottom: 3vh;
     display: flex;
     flex-direction: column;
-    background-image: repeating-linear-gradient(rgb(255, 100, 100), rgb(255, 150, 150));
+    background-image: repeating-linear-gradient(var(--background), var(--background-faded));
     min-height: 100vh;
     gap: 1vh;
     align-items: center;

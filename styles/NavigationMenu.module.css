@@ -4,7 +4,7 @@
     z-index: 1;
     top: 8vh;
     left: 0;
-    background-color: rgba(255, 20, 20, 0.9);
+    background-color: var(--background);
     overflow: hidden;
     touch-action: none;
     -ms-touch-action: none;
@@ -21,7 +21,7 @@
 }
 
 .category {
-    color: ghostwhite;
+    color: rgba(0, 0, 0, 0.6);
     font-size: large;
     font-weight: bold;
 }
